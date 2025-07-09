@@ -26,5 +26,8 @@ public class LandingPageStepDefinition {
         //testContextSetup.driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortname);
         testContextSetup.landingPageProductName = landingPage.getProductName().split("-")[0].trim();
         System.out.println(testContextSetup.landingPageProductName+" is extracted from Home Page");
+
+        System.out.println("added line1");
+        System.out.println("added line2");
     }
 }
