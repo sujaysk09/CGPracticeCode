@@ -29,5 +29,8 @@ public class LandingPageStepDefinition {
 
         System.out.println("added line1");
         System.out.println("added line2");
+
+        System.out.println("added line3");
+        System.out.println("added line4");
     }
 }
