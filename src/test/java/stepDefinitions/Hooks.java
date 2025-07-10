@@ -19,5 +19,6 @@ public class Hooks {
             byte[] sourceScreenshot = ((TakesScreenshot) testContextSetup.driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(sourceScreenshot,"image/png","image1");
         }
+        System.out.println("new framework comp added by indian");
     }
 }
