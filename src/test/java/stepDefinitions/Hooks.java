@@ -20,5 +20,7 @@ public class Hooks {
             scenario.attach(sourceScreenshot,"image/png","image1");
         }
         System.out.println("new framework comp added by indian");
+        System.out.println("new framework comp added by american1");
+        System.out.println("new framework comp added by american2");
     }
 }
