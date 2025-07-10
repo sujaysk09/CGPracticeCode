@@ -43,5 +43,10 @@ public class OffersPageStepDefinition {
     @Then("Validate product name in offers page matches with landing page")
     public void validate_product_name_in_offers_page(){
         Assert.assertEquals(offersPageProductName,testContextSetup.landingPageProductName);
+
+        System.out.println("america guy added code1");
+        System.out.println("america guy added code2");
+        System.out.println("america guy added code3");
+        System.out.println("america guy added code4");
     }
 }

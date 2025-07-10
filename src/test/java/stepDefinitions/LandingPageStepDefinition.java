@@ -18,6 +18,11 @@ public class LandingPageStepDefinition {
     public void user_is_on_green_kart_landing_page() {
         testContextSetup.driver=new ChromeDriver();
         testContextSetup.driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+
+        System.out.println("added code by america guy1");
+        System.out.println("added code by america guy2");
+        System.out.println("added code by america guy3");
+        System.out.println("added code by america guy4");
     }
     @When("User searched with shortname {string} and extracted actual name of product")
     public void user_searched_with_shortname_and_extracted_actual_name_of_product(String shortname) {
